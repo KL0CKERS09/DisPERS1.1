@@ -110,6 +110,7 @@ export default function Profile() {
       setCurrentPassword("");
       setNewPassword("");
       setConfirmPassword("");
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
       setPasswordChangeError("Error changing password. Please try again.");
     }

@@ -1,3 +1,6 @@
+"use client"
+
+
 import React, { useState, ChangeEvent } from "react";
 import { useRouter } from "next/navigation";
 
@@ -7,10 +10,10 @@ export default function UserSubmitReport() {
   const [category, setCategory] = useState("");
   const [area, setArea] = useState("");
   const [location, setLocation] = useState("");
-  const [verified, setVerified] = useState("Verified");
-  const [status, setStatus] = useState("Active");
+  const [verified,] = useState("Verified");
+  const [status, ] = useState("Active");
   const [severity, setSeverity] = useState(""); // Added severity state
-  const [uploading, setUploading] = useState(false);
+  const [uploading, ] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const router = useRouter();
 

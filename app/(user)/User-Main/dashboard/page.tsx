@@ -1,3 +1,5 @@
+"use client"
+
 import AlertNotificationWatcher from "@/app/home-components/AlertNotificationWatcher";
 
 export default function DashboardPage() {
